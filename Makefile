@@ -284,8 +284,8 @@ openzwave:
 	git clone git://github.com/OpenZWave/open-zwave.git openzwave
 
 openzwave.gzip:
-	wget --no-check-certificate https://codeload.github.com/OpenZWave/open-zwave/zip/master
-	mv master open-zwave-master.zip
+	wget --no-check-certificate https://codeload.github.com/OpenZWave/open-zwave/zip/Dev
+	mv Dev open-zwave-master.zip
 	unzip open-zwave-master.zip
 	mv open-zwave-master openzwave
 	
